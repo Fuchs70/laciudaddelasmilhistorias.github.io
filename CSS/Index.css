@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #001F3F;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: bradhitc;
+    src: url(/Fonts/bradhitc.ttf);
+}
+@font-face {
+    font-family: BloodieCurse;
+    src: url(/Fonts/BloodieCurse-Regular.otf);
+}
+@font-face {
+    font-family: Glimp;
+    src: url(/Fonts/Glimp-CondensedThin.ttf);
+}
+@font-face {
+    font-family: GlimpItalic;
+    src: url(/Fonts/Glimp-CondensedThinItalic.ttf);
+}
+@font-face {
+    font-family: Opensea;
+    src: url(/Fonts/OpenseaThecrownismineNfts-Regular.ttf);
+}
+@font-face {
+    font-family: Ango;
+    src: url(/Fonts/Ango.ttf);
+}
+
+header{
+    margin-bottom: 3rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el header esté encima de otros elementos */
+    background-color: transparent;
+    transition: background-color 0.5s ease; /* Agrega una transición para suavizar el cambio de color */
+}
+
+header.scroll {
+    background-color: #001F3F;
+}
+
+.nav-link{
+    font-family: Opensea;
+    font-size: 28px; 
+    margin-left: 3rem;
+}
+
+
+.uno{
+    width: 100%;
+    height: 800px;
+    margin: 3rem auto;
+    padding-top: 12rem;
+    background: url(/Img/SVG/cyty.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center  ;
+}
+
+h1{ 
+    margin: auto;
+    width: 1000px;
+    height: 200px;
+    color: #fff;
+    font-family: Bradhitc;
+    text-align: center;
+    font-size: 100px;
+}
+
+.nav-link{ color: #FFD700;}
+
+
+
+.navbar-toggler{
+    width: 65px;
+}
+
+
+.navbar-brand{
+    width: 80px;
+}
+
+.dos img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: -5rem;
+    padding-bottom: 10rem;
+}
+
+.tres{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 10rem;
+}
+
+.tres h2{
+    text-align: center;
+    font-family: Opensea;
+    font-size: 45pt;
+    color: #B0C4DE;
+}
+
+.cuatro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-bottom: 3rem;
+}
+.cinco{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-bottom: 3rem;
+}
+
+.cinco p, .cuatro h2{
+    color: #fff;
+    text-align: center;
+}
+
+p{
+    font-family: Glimp;
+}
+
+.cuatro h2{
+    font-family: BloodieCurse;
+    font-size: 85px;
+    display: inline-block;
+    background: linear-gradient(#FFD700, #FFD700 50%, #B0C4DE 50%, #B0C4DE); /* Cambiado a vertical */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;   
+}
+
+.seis{
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos para que estén en los extremos */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    margin-top: -12rem;
+}
+
+.a, .b{
+    width: 400px;
+    max-width: 200px
+}
+
+.siete{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 10rem;
+    text-align: center;
+    font-family: Opensea;
+    font-size: 45pt;
+    color: #B0C4DE;
+
+}
+
+.ocho{
+    display: flex;
+    color: #fff;
+}
+
+.c{
+    margin-left: 250px;
+    margin-right: 4rem;
+    width: 600px;
+    
+}
+.c1{
+    color: #B0C4DE;
+}
+.c2{
+    color: #FFD700;
+}
+.c1, .c2{
+    font-family: Ango;
+    font-size: 30pt;
+}
+.c p{
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+.c3{
+    width: 150px;
+}
+
+
+.d1{
+    width: 600px;
+    margin-top: -10rem;
+}
+
+.nueve{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 8rem;
+}
+
+.diez{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 12rem;
+}
+.once{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 12rem;
+
+}
+.once h2{
+    font-family: BloodieCurse;
+    font-size: 90px;
+    margin-top: 12rem;
+    display: block;
+    background: linear-gradient(90deg, #B0C4DE, #B0C4DE 42%, #FFD700 1%);
+    -webkit-background-clip: text; /* Propiedad específica de WebKit */
+    background-clip: text; /* Propiedad estándar para mejorar la compatibilidad */
+    color: transparent;
+    margin: 0 auto;
+
+}
+.once img{
+    margin-top: 2rem;
+    width: 400px;
+}
+
+.trece{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 12rem;
+}
+.trece h2{
+    font-family: BloodieCurse;
+    font-size: 75px;
+    display: inline-block;
+    background: linear-gradient(90deg, #B0C4DE, #B0C4DE 50%, #FFD700 1%);
+    -webkit-background-clip: text; /* Propiedad específica de WebKit */
+    background-clip: text; /* Propiedad estándar para mejorar la compatibilidad */
+    color: transparent;
+    margin: 0 auto;
+
+}
+.trece h3{
+    font-family: Opensea;
+    color: #B0C4DE;
+}
+.catorce{
+    display: flex;
+    justify-content: space-around; /* Espacio entre las imágenes */
+    align-items: center; /* Centra verticalmente las imágenes */
+    margin: 6rem 0; /* Centra el contenedor horizontalmente */
+    height: 500px;
+    background: url(/Img/SVG/frecuencia.svg);
+}
+
+.catorce img{
+    width: 400px;
+    animation: rotate 20s linear infinite; /* Animación de rotación */
+    
+}
+
+@keyframes rotate {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+
+footer{
+    background-color: black;
+    display: block;
+    text-align: center;
+}
+footer img{
+    margin-top: 1rem;
+    width: 300px;
+}
+
+hr{
+    color: #FFD700;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.e1{
+    color: #fff;
+    font-family: Glimp;
+    font-size: 15pt;
+}
+.e2{
+    color: #FFD700;
+    font-size: 15pt;
+}
+
+/*Slidder*/
+        .slider-container {
+            position: relative;
+            width: 300px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slider {
+            display: flex;
+            width: 300%; /* Ajusta el ancho total del slider según el número de slides */
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            min-width: 300px;
+            box-sizing: border-box;
+        }
+
+        .slide img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .prev, .next {
+            position: absolute;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            z-index: 2;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-top: 4600px;
+        }
+        
+        .prev {
+            left: 10px;
+        }
+        
+        .next {
+            right: 10px;
+        }
+@media only screen and (max-width: 1000px){
+    .nav-link{
+        font-size: 18px; 
+        margin-top: 1rem;
+        margin-left: 5px;
+    }
+    
+    h1{
+        width: 500px;
+        height: 80px;
+        font-size: 55px;
+    }
+    .uno{
+    width: 100%;
+    height: 600px;
+    margin: 3rem auto;
+    padding-top: 12rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center  ;
+    }
+    .tres{width: 300px;}
+    .tres h2{
+        font-size: 30px;
+    }
+    .cinco{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        margin-bottom: 3rem;
+    }
+    .seis{
+        margin-top: -8rem;
+    }
+    .c p{
+        font-size: 15px;
+        padding-bottom: 1rem;
+    }
+    .d1{
+        width: 400px;
+        margin-top: -10rem;
+    }
+    .c{
+        margin-left: 100px;
+        width: 600px;       
+    }
+    .c1, .c2{
+        font-size: 20pt;
+    }
+    .once h2{
+        background: linear-gradient(90deg, #B0C4DE, #B0C4DE 36%, #FFD700 1%);
+        -webkit-background-clip: text; /* Propiedad específica de WebKit */
+        background-clip: text; /* Propiedad estándar para mejorar la compatibilidad */
+        color: transparent;    
+    }
+    .catorce{
+        display: flex;
+        justify-content: space-around; /* Espacio entre las imágenes */
+        align-items: center; /* Centra verticalmente las imágenes */
+        height: 350px;
+    }
+    
+    .catorce img{
+        width: 250px;
+        
+    }
+    .prev, .next {
+        margin-top: 4500px;
+    }
+    .navbar-collapse.show {
+        background-color: #001F3F; /* Puedes cambiar este color según tus preferencias */
+    }
+
+
+    }
